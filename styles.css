@@ -1,0 +1,42 @@
+/* form{
+    display:flex;
+    flex-direction:column;
+} */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.fondo{
+    background-color: coral;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.goku{
+    height: 16em;
+    width: 16em;
+    background-image: url(./feliz.jpg);
+    background-size: cover;
+    background-position-x: center;
+}
+
+@media screen and (min-width:300px) and (max-width:800px){
+
+    .goku{
+        background-image: url(./enojado.jpg);
+    }
+    .fondo{
+        background-color: darkgreen;
+    }
+
+}
+
+.mapa{
+    width: 300px;
+    height: 150px;
+}
